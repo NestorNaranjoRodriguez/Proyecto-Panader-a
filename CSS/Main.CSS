@@ -25,3 +25,42 @@ button{
     button:hover {
         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     }
+    footer{
+        width: 100%;
+        background-color: gainsboro;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 100px;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        div p{
+            margin: 0;
+        }
+    
+        .container-info{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+            gap: 0;
+        }
+        .container-copyright{
+            text-align: center;
+        }
+        .container-social-medias{
+            display: flex;
+            align-items: center;
+            gap: 1em;
+    
+            img {
+                width: 30px;
+                object-fit: cover;
+                border-radius: 50% ;
+            }
+            
+        }
+    }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/Main.CSS">
-    <title>Panadería Boyería Pedro Rodriguez Barrio</title>
+    <title>Panadería Bollería Pedro Rodriguez Barrio</title>
 </head>    
 <body>  
     <header>
@@ -30,6 +30,25 @@
     </ul>
     <button class="button1" type="button" ><a href="#Pan">&uarr;</a></button>
     
- 
+    <section hidden id="hiddenSection" class="hidden-section">
+        <h2>Hidden Section</h2>
+        <p>This section is now visible!</p>
+    </section>
+    
+    <script>
+        window.onscroll = function() {
+          if (window.scrollY > 200) { 
+            document.getElementById('hiddenSection').style.display = 'block';
+          }
+        };
+    </script>
+    <footer>
+        <div class="container-info">
+            <p>C. el Salvador, 65</p>
+            <p>35010 Las Palmas de Gran Canaria</p>
+            <p>en el Barrio de Guanarteme</p>
+            <p>	&#x1F4DE 928262092</p>
+        </div>
+    </footer>
 </body>
 </html>

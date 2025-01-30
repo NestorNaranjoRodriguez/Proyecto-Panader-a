@@ -5,3 +5,14 @@ header{
     align-content: center;
     text-align: center;
     }
+
+a {
+    align-items: center;
+    img{
+    max-width: 50%;
+    max-height: 70%;
+    }
+}
+hr{
+    width: 45%;
+    border: 1px solid burlywood}
