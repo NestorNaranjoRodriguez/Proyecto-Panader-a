@@ -28,7 +28,7 @@ button{
     footer{
         width: 100%;
         background-color: gainsboro;
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
