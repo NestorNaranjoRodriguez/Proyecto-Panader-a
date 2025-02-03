@@ -5,3 +5,9 @@ header{
     align-content: center;
     text-align: center;
     }
+iframe{
+        width: 100%;  /* Ocupa el ancho completo del contenedor */
+        height: 600px; /* Ajusta la altura según sea necesario */
+        border: none;  /* Elimina el borde del iframe */
+        overflow: hidden; /* Evita barras de desplazamiento */
+}
