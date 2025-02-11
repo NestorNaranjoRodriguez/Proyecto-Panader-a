@@ -1,0 +1,17 @@
+header{
+    background-color:blanchedalmond;
+    color: wheat;
+    min-height: 50px;
+    align-content: center;
+    text-align: center;
+    }h1{
+    color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    align-items: center;
+    min-width: 45%;
+    height: 100%;
+}
+
+    

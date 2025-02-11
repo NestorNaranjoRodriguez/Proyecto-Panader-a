@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/Main.CSS">
+    <title>Panadería Bollería Pedro Rodriguez Barrio</title>
+</head>    
+<body>  
+    <header>
+        <img src="../Images/Logo.jpg" alt="Logo">
+        <a href="Conocenos.html">Conocenos</a>
+        <a href="Productos.html">Nuestros productos</a>
+        <a href="Contactanos.html">Contactanos</a>
+        <a href="Localizacion.html">¿Donde encontrarnos?</a>
+    </header>
+    <a name="Pan"></a>
+    <h2>Un poco sobre nosotros</h2>
+    <p>Somos un negocio familiar dedicado al pan artesanal y la venta de otros productos</p>
+    <ul>
+        <li>Favicon</li>
+        <li>Video Pan (background)</li>
+        <li>Historia (logo, agregar Imagenes)</li>
+        <li>Video Hace Pan (Explicar por escrito)</li>
+        <li>Menu desplegable + barra superior(aprtados de: productos, localizacion, acerca de nosotros)</li>
+        <li>Header, footer...</li>
+        <li>Creación e Inicio de sesión</li>
+        <li>animar web(Usar On Hover me y que con scroll hagan aparición los items(texto e imagenes))</li>
+        <li>botón que te devuelva al inicio de la pagina</li>
+        <li>Agregar botones a los apartados del main (para redirigir como el menu desplegable)</li>
+        <li>Debes indicar sí o sí el enlace al ejemplo concreto que debes parecerte. Si no indicas el enlace no te corregiré el ejercicio.</li>
+        <li>Debes usar solo HTML, CSS y JavaScript. El trabajo debe estar realizado con HTML, CSS y JavaScript y nada más.</li>
+        <li>5% si tu proyecto cumple con la validación W3C.</li>  
+        <li>5% si tu proyecto está subido a GitHub. ***</li>    
+        <li>5% Los archivos de css, imágenes y js debes de colocarlos en sus respectivas carpetas.</li>    
+        <li> 40% si tu proyecto tiene un Layout responsive que contenga: ***
+            5% Un header responsive con media queries para al menos 3 tamaños de dispositivos.
+            5% Un footer responsive con media queries para al menos 3 tamaños de dispositivos.
+            10% Una galería de imágenes con al menos 10 imágenes con media queries para al menos 3 tamaños de dispositivos.. No puede haber menos de 10 imágenes diferentes. 
+            20% Debe haber al menos 3 secciones más que cubran en total al menos el largo de 3 pantallas. Debes utilizar media queries para al menos 3 tamaños de dispositivos diferentes.</li>    
+        <li>5% si usas algún efecto hover en tu web. (Un efecto hover interesante y no cualquier cosa para conseguir el punto).</li>    
+        <li> 5% si tu página contiene alguna animación.</li>   
+        <li>5 % si alguna sección tiene un video de fondo.</li>    
+        <li>10% Si usas alguna librería y/o framework para los iconos de alguna librería como fontawesome. Solo lo puede usar para los iconos. El resto de tu trabajo debe estar realizado con HTML, CSS y JavaScript y nada más.</li>   
+        <li>10% Tu página contendrá como mínimo dos páginas y en una de ellas harás un formulario ***.</li>    
+        <li>10% si tu proyecto tiene alguna funcionalidad realizada con JavaScript. *** Por ejemplo:</li>   
+        <li>Mostrar y ocultar elementos de la página.</li>
+        <li>Cambio de estilos de la página (unas veces se verán de una forma y otros de otra)</li>    
+            
+            
+            
+            
+        
+    </ul>
+    <section hidden id="hiddenSection" class="hidden-section">
+        <h2>Hidden Section</h2>
+        <p>This section is now visible!</p>
+    </section>
+    
+    <script>
+        window.onscroll = function() {
+          if (window.scrollY > 200) { 
+            document.getElementById('hiddenSection').style.display = 'block';
+          }
+        };
+    </script>
+    <footer>
+        <div class="container-info">
+            <p>C. el Salvador, 65</p>
+            <p>35010 Las Palmas de Gran Canaria</p>
+            <p>en el Barrio de Guanarteme</p>
+            <p>	&#x1F4DE 928262092</p>
+        </div>
+    </footer>
+</body>
+</html>
