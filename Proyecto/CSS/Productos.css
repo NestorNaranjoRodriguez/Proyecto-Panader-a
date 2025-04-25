@@ -26,12 +26,6 @@ header img {
     height: auto;
     display: block;
 }
-body {
-  background-color: #1f3a4c;
-  color: white;  
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 button{
     cursor: pointer;
     color: bisque;
