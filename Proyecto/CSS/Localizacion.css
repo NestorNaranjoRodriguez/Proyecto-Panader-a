@@ -1,0 +1,37 @@
+header {
+    background-color: rgb(226, 179, 94);
+    color: wheat;
+    min-height: 50px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 10px 30px; 
+}
+
+header a {
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    transition: color 0.3s ease; 
+}
+
+header a:hover {
+    color: brown; 
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+body {
+    background-color: #1f3a4c;
+    color: white;  
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+hr{
+    width: 45%;
+    border: 1px solid burlywood}
