@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="../CSS/form.css">
-    <link rel="icon" type="image/png" href="../Images/Cabecera.jpg">
+   <link rel="stylesheet" href="../CSS/form.css">
+   <link rel="icon" type="image/png" href="../Images/Cabecera.jpg">
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="card-switch">
-            <label class="switch">
-               <input class="toggle" type="checkbox">
-               <span class="slider"></span>
-               <span class="card-side"></span>
-               <div class="flip-card__inner">
-                  <div class="flip-card__front">
-                     <div class="title">Iniciar Sesion</div>
-                     <form action="" class="flip-card__form">
-                        <input type="email" placeholder="Email" name="email" class="flip-card__input">
-                        <input type="password" placeholder="Password" name="password" class="flip-card__input">
-                        <button class="flip-card__btn">Acceder</button>
-                        <button type="button" onclick="window.history.back();" class="back-btn">Volver</button>
-                     </form>
-                  </div>
-                  <div class="flip-card__back">
-                     <div class="title">Registrarse</div>
-                     <form action="" class="flip-card__form">
-                        <input type="name" placeholder="Name" class="flip-card__input">
-                        <input type="email" placeholder="Email" name="email" class="flip-card__input">
-                        <input type="password" placeholder="Password" name="password" class="flip-card__input">
-                        <button class="flip-card__btn">Crear</button>
-                        <button type="button" onclick="window.history.back();" class="back-btn">Volver</button>
-                     </form>
-                  </div>
-               </div>
-            </label>
-        </div>   
+   <div class="wrapper">
+      <section class="form-content-container">
+        <div class="flip-container">
+          <h1 class="text-flip-container">Iniciar Sesion</h1>
+          <label class="switch">
+            <input id="toggle" type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <h1 class="text-flip-container">Registrarse</h1>
+        </div>
+  
+        <div class="form-container">
+          <div class="flip-card" id="flipCard">
+            <div class="flip-card-inner">
+              <div class="card-face front">
+                <h1 class="title">Iniciar Sesión</h1>
+                <form action="" class="flip-card__form">
+                  <input type="email" placeholder="Email" name="email" class="flip-card__input">
+                  <input type="password" placeholder="Password" name="password" class="flip-card__input">
+                  <button class="flip-card_btn">Acceder</button>
+                </form>
+                <p class="back-arrow-form" onclick="window.history.back();"> < Volver</p>
+              </div>
+              <div class="card-face back">
+                <h1 class="title">Registrarse</h1>
+                <form action="" class="flip-card__form">
+                  <input type="name" placeholder="Nombre" class="flip-card__input">
+                  <input type="email" placeholder="Email" name="email" class="flip-card__input">
+                  <input type="password" placeholder="Contraseña" name="password" class="flip-card__input">
+                  <button class="flip-card_btn">Registrarse</button>
+                </form>
+                <p class="back-arrow-form" onclick="window.history.back();"> < Volver</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+
+   <script src="../JS/form.js"></script>
+
 </body>
+
 </html>
